@@ -11,7 +11,7 @@ comment
 
 ~% for newline
 
-(defvar *name* (read) - define global variable)
+(defvar *name* (read)) - define global variable
 
 (format t "Hello world~%") - Print in terminal
 (format t "Number with commas ~:d" 10000000)
