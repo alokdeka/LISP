@@ -1,0 +1,21 @@
+;;; comment
+
+;; comment
+
+; comment
+
+#||
+multyline
+comment
+||#
+
+~% for newline
+
+(defvar *name* (read) - define global variable)
+
+(format t "Hello world~%") - Print in terminal
+(format t "Number with commas ~:d" 10000000)
+
+(setq *print-case* :capitalize) - Print first letter capital
+(setq *print-case* :upcase) - Print all letter capital
+(setq *print-case* :downcase) - Print all letter small
