@@ -39,3 +39,15 @@
 (format t "Second item in the list: ~a ~%" 
     (nth 2 *num-list*))
 
+
+
+(defvar superman 
+    (list :name "Superman" :secret-id "Clark Kent"))
+(defvar Iron-man 
+    (list :name "Iron Man" :secret-id "Tony Stark"))
+(defvar *hero-list* nil)
+(push superman *hero-list*)
+(push Iron-man *hero-list*)
+(dolist 
+    (hero *hero-list*)
+    (format t "~{~a : ~a  ~}~%" hero))
